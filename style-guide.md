@@ -31,3 +31,19 @@ The designs were created to the following widths:
 
 - Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
 - Weights: 500
+
+
+--------------------------------------------
+0000 0000 0000 0000
+Jane Appleseed
+00/00
+
+000   
+
+<!-- Completed state start -->
+
+Thank you!
+We've added your card details
+Continue
+
+--------------------------------------------

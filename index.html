@@ -29,47 +29,31 @@
         <div class="bg_card_back">
           <img src="images/bg-card-back.png" alt="bg_card">
         </div>
-      </div>      
+      </div>       
     </section>
+     
+    <form class="forms">
+      <label for="name">CARDHOLDER NAME</label>
+			<input type="text" name="name" class="input-padrao" required placeholder="e.g. Jane Appleseed">
 
-    <form>
-      <label for="nome"></label>
-      <input type="text" nome="nome" id="nome" required>
+      <label for="card_number">CARD NUMBER</label>
+      <input type="number" name="card_number" class="input_standard" required placeholder="e.g. 1234 5678 9123 0000">
     </form>
 
-    
-    0000 0000 0000 0000
-    Jane Appleseed
-    00/00
+    <form class="validation">
+      <div posicion_inputs>        
+        <label for="mes">Exp. Date (MM/YY)</label>
+			  <input type="number" name="mes" class="input-menor" required placeholder="MM">
+        <input type="text" name="name" class="input-menor" required placeholder="YY">
+        
+        <input type="number" name="CVC" class="input-cvc" required placeholder="e.g. 123">       
+      </di> 
 
-    000
+      <label for="submit"></label>
+      <input type="submit" id="submit" value="Confirm">
 
-    Cardholder Name
-    e.g. Jane Appleseed
-
-    Card Number
-    e.g. 1234 5678 9123 0000
-
-    Exp. Date (MM/YY)
-    MM
-    YY
-
-    CVC
-    e.g. 123
-
-    Confirm
-
-    <!-- Completed state start -->
-
-    Thank you!
-    We've added your card details
-    Continue
-    
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-
+      
   </div>
 </body>
 </html>
+
