@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images {
+    display: flex;
+}
+
+.backgroud_color {
+    position: absolute;
+}
+
+.container_images {
+    position: absolute;
+}
+
+.bg_card {
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 10rem;
+}
+
+.bg_card_back {
+    position: absolute;
+    margin-top: 27rem;
+    margin-left: 15rem;
+}
