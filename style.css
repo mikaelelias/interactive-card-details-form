@@ -12,28 +12,34 @@
 
 .bg_lateral {
     width: auto;
-    position: absolute;
+    z-index: 1;
+
+   
 }
 
 .card {
     margin-top: 18vh;
     margin-left: 15vw;
-}
-.card_frente {
     position: absolute;
+  }
+
+.card_frente {
     margin-left: -5vw;
+    z-index: 2;
+    position: absolute;
 }
 
 .card_tras {
-    position: absolute;
     margin-top: 35vh;
+    z-index: 3;
+    position: absolute;
 }
 
 form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    margin: 0 40vw;
+    margin: 0 auto;
     margin-top: 11vw;
   }
 
@@ -69,20 +75,45 @@ form {
   }
   
 
-  @media screen and  (max-width: 1300px) {
-    form {
-        display: flex;
-        flex-direction: column;
-        max-width: 600px;
-        margin: 0 40vw;
-        margin-top: 20vw;
-      }
+@media screen and  (max-width: 1300px) {
+  form {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 20vw;
+    }
+}
+
+@media screen and  (max-width: 1200px) {
+  html{
+    margin-right: 20%;
+  }
+  form {      
+      margin: 0 auto;
+      margin-top: 20vw;
+      margin-left: 20vw;
+    }   
+}
+
+
+
+@media screen and  (max-width: 375px) {
+  .in {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {   
+      margin: 0 auto;
+      margin-top: 20vw;
+    }   
 
     input[type="text"] {
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+      padding: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
     }
 }
 
