@@ -13,6 +13,11 @@
 .img_lateral {
   width: 100%;
   height: 100vh;
+  height: -10px;
+}
+
+.img_mobile {
+  display: none;
 }
 
 .card {
@@ -87,7 +92,7 @@ form {
     }
 }
 
-@media screen and  (max-width: 1200px) {
+@media screen and  (max-width: 1100px) {
   html{
     margin-right: 20%;
   }
@@ -95,7 +100,7 @@ form {
   form {      
       margin: 0 auto;
       margin-top: 20vw;
-      margin-left: 20vw;
+      margin-left: 10vw;
     }
     
   .card {
@@ -105,36 +110,45 @@ form {
     height: 100%;
     background-size: cover;
   }
+
+  .img_lateral {
+    width: 60vw;
+    height: 100vh;
+  }
+
+}
+
+@media screen and  (max-width: 767px) {
+  .backgroud_color {
+      position: absolute;
+      display: none;
+      background-image: url(images/bg-main-mobile.png);
+  }
+
+  .images {
+      display: none;
+  }
+
+  .forms {
+      width: 50vw;
+      margin: 0 auto;
+  }
 }
 
 @media screen and  (max-width: 375px) {
-  .container {
+    .container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
-
-  .bg_lateral {
-    display: none;
-    background-image: url('images/bg-main-mobile.png');
-  }
-}
-
- /* 
-@media screen and  (max-width: 767px) {
-    .backgroud_color {
-        position: absolute;
-        display: none;
-        background-image: url(images/bg-main-mobile.png);
-    }
-
-    .images {
-        display: none;
-    }
-
-    .forms {
-        width: 50vw;
-        margin: 0 auto;
+    .img_lateral {
+      display: none;
+    }   
+  
+    .card {
+      width: 80%;
+      margin: 0 auto;
     }
 }
-*/
+
+
