@@ -33,6 +33,91 @@
     position: absolute;
 }
 
+#texto1 {
+  position: absolute;
+  top: 145px;
+  left: 21px;
+  font-size: 26px;
+  color: white;
+  padding: 18px;
+  letter-spacing: 6px;
+}
+
+.input1 {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  width: 28vw;
+  margin-top: 5px;
+  font-family: poppins; 
+}
+
+#texto2 {
+  position: absolute;
+  top: 80%;
+  left: 21px;
+  font-size: 14px;
+  color: white;
+  padding: 0;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+
+.input2 {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  width: 28vw;
+  margin-top: 5px;
+  font-family: poppins; 
+}
+
+#texto3 {
+  position: absolute;
+  top: 80%;
+  left: 50px;
+  font-size: 14px;
+  color: white;
+  padding: 0;
+  margin-left: 70%;
+  margin-top: 5px;
+}
+
+
+.input3 {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 28vw;
+  margin-top: 5px;
+  font-family: poppins; 
+}
+
+#texto4 {
+  position: absolute;
+  top: 44%;
+  left: 21px;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin-left: 74%;
+}
+
+
+.input4 {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 28vw;
+  margin-top: 5px;
+  font-family: poppins; 
+}
+
 .card_tras {
     margin-top: 35vh;
     z-index: 3;
@@ -45,6 +130,7 @@ form {
     max-width: 500px;
     margin: 0 auto;
     margin-top: 11vw;
+    gap: 5px;
   }
   
   .label {
@@ -53,17 +139,6 @@ form {
     font-family: poppins;
   }
   
-  .input{
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    width: 28vw;
-    margin-top: 10px;
-    font-family: poppins;
- 
-  }
-   
   button {
     margin-top: 20px;
     padding: 10px;
@@ -79,6 +154,10 @@ form {
   
   button[type="submit"]:hover {
     background-color: #4c8fd6;
+  }
+
+  #submitButton2 {
+    width: 5%;
   }
   
 

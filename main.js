@@ -31,3 +31,34 @@ form.addEventListener('submit', function(event) {
     form.reset();
   }
 })
+
+const input1 = document.getElementById('cardNumber');
+const texto = document.getElementById('texto1');
+
+input1.addEventListener('input', () => {
+  texto.innerText = input1.value;
+});
+
+const input2 = document.getElementById('cardName');
+const texto2 = document.getElementById('texto2');
+
+input2.addEventListener('input', () => { //TEM QUE TROCAR O TEXTO INNERTEXT
+  texto2.innerText = input2.value;
+});
+
+const input3 = document.getElementById('expiryDate');
+const texto3 = document.getElementById('texto3');
+
+input3.addEventListener('input', () => { //TEM QUE TROCAR O TEXTO INNERTEXT
+  texto3.innerText = input3.value;
+});
+
+const input4 = document.getElementById('cvv');
+const texto4 = document.getElementById('texto4');
+
+input4.addEventListener('input', () => { //TEM QUE TROCAR O TEXTO INNERTEXT
+  texto4.innerText = input4.value;
+});
+
+
+
