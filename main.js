@@ -15,21 +15,24 @@ form.addEventListener('submit', function(event) {
   // verifica se os campos são válidos
   if (cardNumber.checkValidity() && cardName.checkValidity() && expiryDate.checkValidity() && cvv.checkValidity()) {
     // exibe a mensagem de validação
+    
     const message = document.createElement('div');
     message.textContent = 'Dados recebidos';
     message.style.position = 'fixed';
-    message.style.top = '50%';
-    message.style.left = '50%';
+    message.style.top = '85%';
+    message.style.left = '63%';
     message.style.transform = 'translate(-50%, -50%)';
     message.style.backgroundColor = 'white';
     message.style.padding = '20px';
     message.style.borderRadius = '10px';
+    message.style.backgroundColor = "darkgrey"
 
     document.body.appendChild(message);
     
     // limpa os campos 
     form.reset();
   }
+
 })
 
 const input1 = document.getElementById('cardNumber');
@@ -58,7 +61,13 @@ const texto4 = document.getElementById('texto4');
 
 input4.addEventListener('input', () => { //TEM QUE TROCAR O TEXTO INNERTEXT
   texto4.innerText = input4.value;
-});
+})
+
+
+
+
+    
+
 
 
 

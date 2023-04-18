@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+  overflow: hidden;
+ }
+
 .container {
     display: flex;
 }
@@ -31,6 +35,13 @@
     margin-left: -5vw;
     z-index: 2;
     position: absolute;
+}
+
+.logo-card {
+  position: absolute;
+  position: absolute;
+    margin-left: 27px;
+    margin-top: 26px;
 }
 
 #texto1 {
